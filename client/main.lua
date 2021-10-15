@@ -1,4 +1,4 @@
-function SendAlert(text, textype, length)
+local function SendAlert(text, textype, length)
     if type(text) == "table" then
         local ttext = text.text or 'Placeholder'
         local caption = text.caption or 'Placeholder'
@@ -20,6 +20,8 @@ function SendAlert(text, textype, length)
         })
     end
 end
+
+exports('SendAlert', SendAlert)
 
 RegisterNetEvent('mystic:notify', function(text, type, length)
     SendAlert(text, type, length)

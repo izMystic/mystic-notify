@@ -4,15 +4,12 @@ game 'gta5'
 author 'Mystic'
 description 'mystic-notify'
 
+client_script 'client/main.lua'
+
 ui_page 'html/index.html'
 
 files {
 	'html/index.html',
-	'html/app.js'
-}
-
-client_script 'client/main.lua'
-
-exports {
-	'SendAlert'
+	'html/app.js',
+	'html/style.css'
 }

@@ -11,19 +11,19 @@ const app = Vue.createApp({
 
       switch (type) {
         case 'success':
-          color = 'positive';
+          classes = 'success';
           icon = 'done';
           break;
         case 'info':
-          color = 'info';
+          classes = 'info';
           icon = 'info';
           break;
         case 'error':
-          color = 'negative';
+          classes = 'error';
           icon = 'dangerous';
           break;
         case 'warn':
-          color = 'warning';
+          classes = 'warn';
           icon = 'warning';
           break;
       }
@@ -38,12 +38,12 @@ const app = Vue.createApp({
         message: text,
         caption: caption,
         multiLine: multiline,
-        color: color,
         group: true,
         progress: true,
         position: 'top-right',
         timeout: length,
         icon: icon,
+        classes: classes,
       });
     };
     onMounted(() => {
@@ -56,4 +56,4 @@ const app = Vue.createApp({
   },
 });
 app.use(Quasar, { config: {} });
-app.mount('#q-app');
+app.mount('#notify');
