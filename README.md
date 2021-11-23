@@ -18,13 +18,22 @@ TriggerClientEvent('mystic:notify', source, 'This is a test notification', 'info
 
 ## Screenshots
 Info \
-![Info](https://cdn.izmystic.gay/images/7ebqvqgb.png) 
+![Info](https://cdn.izmystic.gay/images/3l40vd8h.png) \
+With Caption \
+![Info](https://cdn.izmystic.gay/images/ax0a80qd.png)
+
 
 Error \
-![Error](https://cdn.izmystic.gay/images/8cc0td3t.png)
+![Error](https://cdn.izmystic.gay/images/jam0brfu.png) \
+With Caption \
+![Error](https://cdn.izmystic.gay/images/qht0w9gl.png)
 
 Success \
-![Success](https://cdn.izmystic.gay/images/l58s5eew.png) 
+![Success](https://cdn.izmystic.gay/images/f93ge73y.png)  \
+With Caption \
+![Success](https://cdn.izmystic.gay/images/aq32i4i6.png)
 
 Warn \
-![Warn](https://cdn.izmystic.gay/images/cb2ymc5s.png) 
+![Warn](https://cdn.izmystic.gay/images/ogufepam.png)  \
+With Caption \
+![Warn](https://cdn.izmystic.gay/images/oeceku2g.png)
