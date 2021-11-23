@@ -11,22 +11,22 @@ exports['mystic-notify']:SendAlert('This is a test notification', 'info')
 exports['mystic-notify']:SendAlert({text = 'This is a test notification', caption = 'With a caption'}, 'info')
 ```
 
-## Server Side
-### Send to everyone
+### Server Side
+#### Send to everyone
 ```lua
 TriggerClientEvent('mystic:notify', -1, 'This is a test notification', 'info')
 ```
-#### With Caption
+With Caption
 ```lua
 TriggerClientEvent('mystic:notify', -1, {text = 'This is a test notification', caption = 'With a caption'}, 'info')
 ```
-### Send to source
+#### Send to source
 ```lua
 TriggerClientEvent('mystic:notify', source, 'This is a test notification', 'info')
 ```
 With Caption
 ```lua
-TriggerClientEvent('mystic:notify', -1, {text = 'This is a test notification', caption = 'With a caption'}, 'info')
+TriggerClientEvent('mystic:notify', source, {text = 'This is a test notification', caption = 'With a caption'}, 'info')
 ```
 
 ## Screenshots
