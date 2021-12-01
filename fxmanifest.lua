@@ -4,7 +4,10 @@ game 'gta5'
 author 'Mystic'
 description 'mystic-notify'
 
-client_script 'client/main.lua'
+client_scripts {
+	'config.lua',
+	'client/main.lua'
+}
 
 ui_page 'html/index.html'
 

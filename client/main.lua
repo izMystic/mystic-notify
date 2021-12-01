@@ -26,3 +26,7 @@ exports('SendAlert', SendAlert)
 RegisterNetEvent('mystic:notify', function(text, type, length)
     SendAlert(text, type, length)
 end)
+
+RegisterNUICallback('getNotifyConfig', function(data, cb)
+    cb(json.encode(Config.Notify))
+end)
