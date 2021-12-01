@@ -63,7 +63,7 @@ const app = Vue.createApp({
         },
         body: JSON.stringify({})
       }).then(resp => resp.json()).then(resp => {
-        NotificationConfig = json.parse(resp)
+        NotificationConfig = JSON.parse(resp)
       });
       
       window.addEventListener('message', showNotif);
