@@ -4,7 +4,7 @@ const app = Vue.createApp({
   data() {
     return {
       NotificationConfig: {
-        stack: false,
+        group: false,
         position: 'top-right',
         progress: true
       },
@@ -47,7 +47,7 @@ const app = Vue.createApp({
         message: text,
         caption: caption,
         multiLine: multiline,
-        group: NotificationConfig.stack,
+        group: NotificationConfig.group,
         progress: NotificationConfig.progress,
         position: NotificationConfig.position,
         timeout: length,
@@ -65,7 +65,7 @@ const app = Vue.createApp({
       }).then(resp => resp.json()).then(resp => {
         NotificationConfig = JSON.parse(resp)
       });
-      
+
       window.addEventListener('message', showNotif);
     });
     onUnmounted(() => {
