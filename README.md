@@ -50,3 +50,6 @@ Warn \
 ![Warn](https://cdn.izmystic.dev/images/ogufepam.png)  \
 With Caption \
 ![Warn](https://cdn.izmystic.dev/images/oeceku2g.png)
+
+## Credits
+Original notifications are taken from [qb-core](https://github.com/qbcore-framework/qb-core), I swimply made them a standalone resource.
