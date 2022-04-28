@@ -31,25 +31,25 @@ TriggerClientEvent('mystic:notify', source, {text = 'This is a test notification
 
 ## Screenshots
 Info \
-![Info](https://cdn.izmystic.dev/images/3l40vd8h.png) \
+![Info](https://cdn.izmystic.dev/images/1ozxmar6.png) \
 With Caption \
-![Info](https://cdn.izmystic.dev/images/ax0a80qd.png)
+![Info](https://cdn.izmystic.dev/images/raz3vd9b.png)
 
 
 Error \
-![Error](https://cdn.izmystic.dev/images/jam0brfu.png) \
+![Error](https://cdn.izmystic.dev/images/oyqerktq.png) \
 With Caption \
-![Error](https://cdn.izmystic.dev/images/qht0w9gl.png)
+![Error](http://cdn.izmystic.dev/images/v8lwfxap.png)
 
 Success \
-![Success](https://cdn.izmystic.dev/images/f93ge73y.png)  \
+![Success](https://cdn.izmystic.dev/images/rgf02mpo.png)  \
 With Caption \
-![Success](https://cdn.izmystic.dev/images/aq32i4i6.png)
+![Success](https://cdn.izmystic.dev/images/cfqdl8y9.png)
 
 Warn \
-![Warn](https://cdn.izmystic.dev/images/ogufepam.png)  \
+![Warn](https://cdn.izmystic.dev/images/33o18dfw.png)  \
 With Caption \
-![Warn](https://cdn.izmystic.dev/images/oeceku2g.png)
+![Warn](https://cdn.izmystic.dev/images/jehk5ita.png)
 
 ## Credits
 Original notifications are taken from [qb-core](https://github.com/qbcore-framework/qb-core), I swimply made them a standalone resource.
