@@ -52,4 +52,4 @@ With Caption \
 ![Warn](https://cdn.izmystic.dev/images/jehk5ita.png)
 
 ## Credits
-Original notifications are taken from [qb-core](https://github.com/qbcore-framework/qb-core), I swimply made them a standalone resource.
+Original notifications are taken from [qb-core](https://github.com/qbcore-framework/qb-core), I simply made them a standalone resource.
